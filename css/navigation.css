@@ -1,0 +1,8 @@
+.navigation {
+    list-style: none;
+    text-align: left;
+}
+
+.navigation__link {
+    color: #11a2ec;
+}

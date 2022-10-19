@@ -1,0 +1,16 @@
+.section {
+    padding-top: 2px;
+}
+
+.section__header {
+    border: 2px solid rgb(55, 55, 55);
+    background-color: rgb(97, 97, 97);
+}
+
+.section__quote {
+    color: rgb(251, 191, 117);
+}
+
+.section__paragraph {
+    line-height: 1.3;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header>
+        <h1 class="header">Poznajcie mnie!</h1>
+    </header>
+    <img class="js-image" width="150" src="https://i.ibb.co/GHQvgtL/IMG-20191229-205055.jpg" alt="Agnieszka Krzanowska">
+    <p><button class="js-button"> <span class="js-button--activityName">usuń</span> zdjęcie</button></p>
+    <nav>
+        <ul class="navigation">
+            <li><a class="navigation__link" href="#o-mnie">Kilka słów o mnie</a></li>
+            <li><a class="navigation__link" href="#coś-więcej">Coś więcej?</a></li>
+            <li><a class="navigation__link" href="#hobby">Hobby</a></li>
+            <li><a class="navigation__link" href="#ciekawostka">Ciekawostka</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section id="o-mnie" class="section">
+            <h2 class="section__header">Kilka słów o mnie</h2>
+            <p class="section__paragraph">Nazywam się <strong>Agnieszka Krzanowska</strong>. Mam 24 lata i mieszkam w
+                niewielkiej
+                wsi pod
+                Rzeszowem. Ukończyłam technikum o profilu turystycznym. Dotychczasowe kraje, które udało mi się zwiedzić
+                to:
+                <b>Słowacja, Węgry, Ukraina oraz Norwegia.</b>
+            </p>
+        </section>
+        <section id="coś-więcej" class="section">
+            <h2 class="section__header">Coś więcej?</h2>
+            <p class="section__paragraph">Mam wspaniałego narzeczonego o imieniu Michał. <br>Jesteśmy z Michałem juz
+                <em>8 lub 9
+                    lat</em>
+                (starciłam rachubę przy 7 xD).
+            </p>
+            <img width="300" src="https://i.ibb.co/GpZR1Dc/DSC0173-001.jpg" alt="Agnieszka z Michałem">
+        </section>
+        <section id="hobby" class="section">
+            <h2 class="section__header">Hobby?</h2>
+            <p class="section__paragraph">Moją pasją jest <b>makijaż</b>. Wykonuję go nie tylko na sobie, ale również na
+                innych
+                osobach.
+                Ukończyłam nawet parę kursów w tym kierunku, m.in. szkolenie z Mistrzynią Świata 2018r w makijażu -
+                Matyldą
+                Bojdą. Jednak nie możemy zapomnieć o słynnych słowach Marilyn Monroe: <i class="section__quote">"Smile
+                    is the
+                    best
+                    makeup a girl could wear."</i> </p>
+            <p class="section__paragraph">Kocham adrenalinę! Czy można nazywać to hobby? Według mnie tak! Aby dostarczyć
+                organizmowi zastrzyku tego
+                hormonu nie raz byłam już w parku rozrywki "Energylandia". Chodzę tylko na najbardziej wystrzałowe
+                kolejki w
+                tym miejscu. Moje ulubione to: Aztec Swing, Hyperion oraz Zadra. Najbardziej "niebezpieczną" rzeczą jaką
+                zrobiłam był skok z bungee w Krakowie. Planuję również w przyszłości skoczyć ze spadochronem. </p>
+        </section>
+        <section id="ciekawostka" class="section">
+            <h2 class="section__header">W wolnych chwilach</h2>
+            <p class="section__paragraph"> Nigdy nie byłam freakiem książkowym. Szczerze mówiąc w czasach szkolnych nie
+                przeczytałam nawet jednej
+                lektury
+                do końca. Niedawno się to zmieniło, za sprawą mojej siostry. Zakochałam się w książkach kryminalnych.
+                Moje
+                ulubione to:</p>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Ulubione książki</caption>
+                    <tr>
+                        <th class="table__header" scope="col">Tytuł</th>
+                        <th class="table__header" scope="col">Autor</th>
+                        <th class="table__header" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Za zamkniętymi drzwiami</td>
+                        <td class="table__cell">B.A.Paris</td>
+                        <td class="table__cell">11.02.2016</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Pacjentka</td>
+                        <td class="table__cell">Alex Michaelides</td>
+                        <td class="table__cell">12.12.2019</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Bechawiorysta</td>
+                        <td class="table__cell" rowspan="3">Remigiusz Mróz</td>
+                        <td class="table__cell">2016</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Iluzjonista</td>
+                        <td class="table__cell">2019</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Ekstermista</td>
+                        <td class="table__cell">19.05.2021</td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+
+        <h2>Dziękuję za uwagę! &#128512;</h2>
+    </main>
+    <footer class="footer">Kontakt: telefon - <a class="footer__link" href="tel:+48.123123123">123123123</a> <br>
+        e-mail: <a class="footer__link" href="mailto:xxagaxx1998@gmail.com">xxagaxx1998@gmail.com</a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.footer {
+    background-color: rgb(97, 97, 97);
+    border: 2px solid rgb(97, 97, 97);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+}
+
+.footer__link {
+    color: #ffc107;
+}

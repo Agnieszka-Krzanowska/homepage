@@ -1,0 +1,30 @@
+.container {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.table__cell {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(97, 97, 97);
+    padding: 10px;
+    text-align: center;
+}
+
+.table__header {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    color: #ffc107;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    padding-top: 4px;
+}
