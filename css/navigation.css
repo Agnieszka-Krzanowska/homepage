@@ -10,10 +10,10 @@
 }
 
 .navigation__link {
+    display: block;
     color: white;
     border: 2px solid rgb(55, 55, 55);
     background-color: rgb(97, 97, 97);
     padding: 10px;
-    margin: 10px;
     
 }
